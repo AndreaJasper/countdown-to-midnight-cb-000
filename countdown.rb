@@ -1,9 +1,14 @@
 #write your code here
 
 
-def countdown
-  x = 10
+def countdown (x)
   while x < 10
   puts "#{x} is less than 10"
     x -= 1
+  end
+  return "Happy New Year!"
+end
+
+def countdown_with_sleep(number)
+  sleep(number)
 end
